@@ -33,7 +33,7 @@ export function App() {
       formData.append('resume', resume);
       formData.append('fullName', fullName);
       formData.append('email', emailAddress);
-      const res = await fetch('http://localhost:3000/apply', {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/apply`, {
         method: 'POST',
         body: formData,
       });
