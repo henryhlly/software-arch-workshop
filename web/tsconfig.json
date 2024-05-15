@@ -6,16 +6,8 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
-    "paths": {
-      "@utils/*": ["./src/utils/*"],
-      "@components/*": ["./src/components/*"],
-      "@pages/*": ["./src/pages/*"],
-      "@contexts/*": ["./src/contexts/*"],
-      "@layouts/*": ["./src/layouts/*"]
-    },
-
     /* Bundler mode */
-    "moduleResolution": "Bundler",
+    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,

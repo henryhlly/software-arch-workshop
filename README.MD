@@ -1,9 +1,18 @@
-# React Template
+# Software Architecture Workshop for the Web Development & Consulting Club
+
+Code Owner: Alex McLeod (Tech Dir.)
+
+1. Create a Fly account on Fly.io, you can just sign in with Github or Google if that's easier
+2. Select the hobby plan (it says $5 but it's free and won't charge your card)
+3. You will need to put in a card, but it won't charge you, I tested it.
+4. Install the CLI 
+5. Run `fly auth login` to sign into your account
+   1. 
+ 
 
 ## Tech Stack
 
 This
-
 ## Setup Runbook
 
 1.  Create a new repository with UoAWDCC as owner
