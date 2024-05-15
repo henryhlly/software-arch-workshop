@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && yarn prisma db push && yarn prisma generate",
     "start": "node dist/index.js"
   },
   "dependencies": {
@@ -24,6 +24,7 @@
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.7",
     "typescript": "^5.3.3"
   }
 }

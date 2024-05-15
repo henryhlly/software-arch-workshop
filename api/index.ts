@@ -77,4 +77,6 @@ app.get('/apply', async (req: Request, res: Response) => {
   return res.status(200).send(applications);
 });
 
-app.listen('3000');
+app.listen('3000', () => {
+  console.log(`Listening on port 3000`);
+});
