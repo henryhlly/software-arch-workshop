@@ -29,6 +29,8 @@ RUN yarn install --frozen-lockfile --production=false
 # Copy application code
 COPY --link . .
 
+ENV VITE_API_URL="https://software-arch-workshop-api.fly.dev"
+
 # Build application
 RUN yarn run build
 
